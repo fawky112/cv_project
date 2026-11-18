@@ -1,0 +1,16 @@
+{
+    "train": {
+        "images": 2944,
+        "total_descriptors": 919597,
+        "average_keypoints": 312.3631114130435,
+        "images_without_descriptors": 0,
+        "average_ms_per_image": 4.587365551964363
+    },
+    "val": {
+        "images": 736,
+        "total_descriptors": 233170,
+        "average_keypoints": 316.8070652173913,
+        "images_without_descriptors": 0,
+        "average_ms_per_image": 4.567439533977212
+    }
+}

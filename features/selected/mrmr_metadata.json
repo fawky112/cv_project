@@ -1,0 +1,60 @@
+{
+  "algorithm": "mRMR",
+  "implementation": "mrmr-selection",
+  "relevance": "F-statistic",
+  "redundancy": "Pearson correlation",
+  "denominator": "mean",
+  "fit_split": "TRAIN",
+  "selection_time_seconds": 140.01930773999993,
+  "total_candidate_features": 10343,
+  "selection_sizes": [
+    20,
+    50,
+    100
+  ],
+  "selected_indices_order": "mRMR ranking",
+  "configurations": {
+    "20": {
+      "selected_features": 20,
+      "train_shape": [
+        2944,
+        20
+      ],
+      "val_shape": [
+        736,
+        20
+      ],
+      "family_counts": {
+        "transformer": 20
+      }
+    },
+    "50": {
+      "selected_features": 50,
+      "train_shape": [
+        2944,
+        50
+      ],
+      "val_shape": [
+        736,
+        50
+      ],
+      "family_counts": {
+        "transformer": 50
+      }
+    },
+    "100": {
+      "selected_features": 100,
+      "train_shape": [
+        2944,
+        100
+      ],
+      "val_shape": [
+        736,
+        100
+      ],
+      "family_counts": {
+        "transformer": 100
+      }
+    }
+  }
+}

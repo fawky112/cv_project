@@ -1,0 +1,47 @@
+{
+    "100": {
+        "vocabulary_size": 100,
+        "training_descriptors": 60000,
+        "clustering_time_seconds": 0.6828632370006744,
+        "train_histogram_seconds": 1.8169188609999765,
+        "val_histogram_seconds": 0.46224828899994463,
+        "train_shape": [
+            2944,
+            100
+        ],
+        "val_shape": [
+            736,
+            100
+        ]
+    },
+    "200": {
+        "vocabulary_size": 200,
+        "training_descriptors": 60000,
+        "clustering_time_seconds": 1.115123728999606,
+        "train_histogram_seconds": 2.2936171010005637,
+        "val_histogram_seconds": 0.5795550469993032,
+        "train_shape": [
+            2944,
+            200
+        ],
+        "val_shape": [
+            736,
+            200
+        ]
+    },
+    "500": {
+        "vocabulary_size": 500,
+        "training_descriptors": 60000,
+        "clustering_time_seconds": 2.347507024999686,
+        "train_histogram_seconds": 3.8569969110003512,
+        "val_histogram_seconds": 0.9675407220001944,
+        "train_shape": [
+            2944,
+            500
+        ],
+        "val_shape": [
+            736,
+            500
+        ]
+    }
+}

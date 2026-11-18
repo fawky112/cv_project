@@ -1,0 +1,13 @@
+{
+    "model": "ViT-B/16",
+    "weights": "IMAGENET1K_V1",
+    "device": "cuda",
+    "batch_size": 8,
+    "timings": {
+        "test": {
+            "total_seconds": 30.608185560999118,
+            "ms_per_image": 8.34237818506381
+        }
+    },
+    "timing_note": "End-to-end DataLoader and inference time, including image loading and preprocessing."
+}

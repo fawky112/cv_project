@@ -1,0 +1,46 @@
+[
+    {
+        "model": "transformer",
+        "features": 768,
+        "k": 5,
+        "distance": "cosine",
+        "test_images": 3669,
+        "correct_predictions": 3298,
+        "test_accuracy": 0.8988825292995366,
+        "test_macro_f1": 0.8966653047797034,
+        "prediction_ms_per_image": 0.3386056952845241
+    },
+    {
+        "model": "mrmr_20",
+        "features": 20,
+        "k": 5,
+        "distance": "cosine",
+        "test_images": 3669,
+        "correct_predictions": 2910,
+        "test_accuracy": 0.7931316434995912,
+        "test_macro_f1": 0.7848329510947251,
+        "prediction_ms_per_image": 0.23111922758265394
+    },
+    {
+        "model": "mrmr_50",
+        "features": 50,
+        "k": 5,
+        "distance": "cosine",
+        "test_images": 3669,
+        "correct_predictions": 3148,
+        "test_accuracy": 0.8579994548923412,
+        "test_macro_f1": 0.852383695243087,
+        "prediction_ms_per_image": 0.2343573109836006
+    },
+    {
+        "model": "mrmr_100",
+        "features": 100,
+        "k": 3,
+        "distance": "cosine",
+        "test_images": 3669,
+        "correct_predictions": 3243,
+        "test_accuracy": 0.883892068683565,
+        "test_macro_f1": 0.8808478496777266,
+        "prediction_ms_per_image": 0.24186109920941387
+    }
+]

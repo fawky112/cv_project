@@ -1,0 +1,970 @@
+[
+    {
+        "index": 0,
+        "name": "rgb_r_mean",
+        "method": "handcrafted_color",
+        "computation": "mean",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 1,
+        "name": "rgb_r_std",
+        "method": "handcrafted_color",
+        "computation": "std",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 2,
+        "name": "rgb_r_skewness",
+        "method": "handcrafted_color",
+        "computation": "skewness",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 3,
+        "name": "rgb_r_kurtosis",
+        "method": "handcrafted_color",
+        "computation": "kurtosis",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 4,
+        "name": "rgb_g_mean",
+        "method": "handcrafted_color",
+        "computation": "mean",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 5,
+        "name": "rgb_g_std",
+        "method": "handcrafted_color",
+        "computation": "std",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 6,
+        "name": "rgb_g_skewness",
+        "method": "handcrafted_color",
+        "computation": "skewness",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 7,
+        "name": "rgb_g_kurtosis",
+        "method": "handcrafted_color",
+        "computation": "kurtosis",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 8,
+        "name": "rgb_b_mean",
+        "method": "handcrafted_color",
+        "computation": "mean",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 9,
+        "name": "rgb_b_std",
+        "method": "handcrafted_color",
+        "computation": "std",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 10,
+        "name": "rgb_b_skewness",
+        "method": "handcrafted_color",
+        "computation": "skewness",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 11,
+        "name": "rgb_b_kurtosis",
+        "method": "handcrafted_color",
+        "computation": "kurtosis",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 12,
+        "name": "hsv_h_mean",
+        "method": "handcrafted_color",
+        "computation": "mean",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 13,
+        "name": "hsv_h_std",
+        "method": "handcrafted_color",
+        "computation": "std",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 14,
+        "name": "hsv_h_skewness",
+        "method": "handcrafted_color",
+        "computation": "skewness",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 15,
+        "name": "hsv_h_kurtosis",
+        "method": "handcrafted_color",
+        "computation": "kurtosis",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 16,
+        "name": "hsv_s_mean",
+        "method": "handcrafted_color",
+        "computation": "mean",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 17,
+        "name": "hsv_s_std",
+        "method": "handcrafted_color",
+        "computation": "std",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 18,
+        "name": "hsv_s_skewness",
+        "method": "handcrafted_color",
+        "computation": "skewness",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 19,
+        "name": "hsv_s_kurtosis",
+        "method": "handcrafted_color",
+        "computation": "kurtosis",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 20,
+        "name": "hsv_v_mean",
+        "method": "handcrafted_color",
+        "computation": "mean",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 21,
+        "name": "hsv_v_std",
+        "method": "handcrafted_color",
+        "computation": "std",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 22,
+        "name": "hsv_v_skewness",
+        "method": "handcrafted_color",
+        "computation": "skewness",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 23,
+        "name": "hsv_v_kurtosis",
+        "method": "handcrafted_color",
+        "computation": "kurtosis",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 24,
+        "name": "rgb_r_hist_bin_0",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 25,
+        "name": "rgb_r_hist_bin_1",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 26,
+        "name": "rgb_r_hist_bin_2",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 27,
+        "name": "rgb_r_hist_bin_3",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 28,
+        "name": "rgb_r_hist_bin_4",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 29,
+        "name": "rgb_r_hist_bin_5",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 30,
+        "name": "rgb_r_hist_bin_6",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 31,
+        "name": "rgb_r_hist_bin_7",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 32,
+        "name": "rgb_r_hist_bin_8",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 33,
+        "name": "rgb_r_hist_bin_9",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 34,
+        "name": "rgb_r_hist_bin_10",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 35,
+        "name": "rgb_r_hist_bin_11",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 36,
+        "name": "rgb_r_hist_bin_12",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 37,
+        "name": "rgb_r_hist_bin_13",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 38,
+        "name": "rgb_r_hist_bin_14",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 39,
+        "name": "rgb_r_hist_bin_15",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 40,
+        "name": "rgb_g_hist_bin_0",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 41,
+        "name": "rgb_g_hist_bin_1",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 42,
+        "name": "rgb_g_hist_bin_2",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 43,
+        "name": "rgb_g_hist_bin_3",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 44,
+        "name": "rgb_g_hist_bin_4",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 45,
+        "name": "rgb_g_hist_bin_5",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 46,
+        "name": "rgb_g_hist_bin_6",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 47,
+        "name": "rgb_g_hist_bin_7",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 48,
+        "name": "rgb_g_hist_bin_8",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 49,
+        "name": "rgb_g_hist_bin_9",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 50,
+        "name": "rgb_g_hist_bin_10",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 51,
+        "name": "rgb_g_hist_bin_11",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 52,
+        "name": "rgb_g_hist_bin_12",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 53,
+        "name": "rgb_g_hist_bin_13",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 54,
+        "name": "rgb_g_hist_bin_14",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 55,
+        "name": "rgb_g_hist_bin_15",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 56,
+        "name": "rgb_b_hist_bin_0",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 57,
+        "name": "rgb_b_hist_bin_1",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 58,
+        "name": "rgb_b_hist_bin_2",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 59,
+        "name": "rgb_b_hist_bin_3",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 60,
+        "name": "rgb_b_hist_bin_4",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 61,
+        "name": "rgb_b_hist_bin_5",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 62,
+        "name": "rgb_b_hist_bin_6",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 63,
+        "name": "rgb_b_hist_bin_7",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 64,
+        "name": "rgb_b_hist_bin_8",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 65,
+        "name": "rgb_b_hist_bin_9",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 66,
+        "name": "rgb_b_hist_bin_10",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 67,
+        "name": "rgb_b_hist_bin_11",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 68,
+        "name": "rgb_b_hist_bin_12",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 69,
+        "name": "rgb_b_hist_bin_13",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 70,
+        "name": "rgb_b_hist_bin_14",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 71,
+        "name": "rgb_b_hist_bin_15",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 72,
+        "name": "hue_hist_bin_0",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 73,
+        "name": "hue_hist_bin_1",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 74,
+        "name": "hue_hist_bin_2",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 75,
+        "name": "hue_hist_bin_3",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 76,
+        "name": "hue_hist_bin_4",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 77,
+        "name": "hue_hist_bin_5",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 78,
+        "name": "hue_hist_bin_6",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 79,
+        "name": "hue_hist_bin_7",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 80,
+        "name": "hue_hist_bin_8",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 81,
+        "name": "hue_hist_bin_9",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 82,
+        "name": "hue_hist_bin_10",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 83,
+        "name": "hue_hist_bin_11",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 84,
+        "name": "hue_hist_bin_12",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 85,
+        "name": "hue_hist_bin_13",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 86,
+        "name": "hue_hist_bin_14",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    },
+    {
+        "index": 87,
+        "name": "hue_hist_bin_15",
+        "method": "handcrafted_color",
+        "computation": "L1-normalized histogram bin",
+        "preprocessing": "Resize to 128x128; BGR to RGB/HSV",
+        "resolution": [
+            128,
+            128
+        ]
+    }
+]

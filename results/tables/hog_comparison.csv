@@ -1,0 +1,2 @@
+feature_set,one_nn_val_accuracy,best_knn_val_accuracy,best_knn_macro_f1,best_k,best_distance
+handcrafted,0.07744565217391304,0.1480978260869565,0.14125149650286375,9,cosine

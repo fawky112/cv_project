@@ -1,0 +1,118 @@
+# ======================================
+# Python
+# ======================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ======================================
+# Virtual Environments
+# ======================================
+
+.venv/
+venv/
+env/
+py13-venv/
+
+# ======================================
+# IDE
+# ======================================
+
+.vscode/
+.idea/
+
+# ======================================
+# Dataset / Original Images
+# ======================================
+
+data/raw/
+data/images/
+data/oxford-iiit-pet/
+datasets/
+dataset/
+images/
+photos/
+
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.webp
+*.bmp
+*.tiff
+
+# ======================================
+# Generated Feature Matrices
+# ======================================
+
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# ======================================
+# Large Model Files
+# ======================================
+
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.gguf
+
+# ======================================
+# Temporary Files
+# ======================================
+
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# ======================================
+# Secrets
+# ======================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ======================================
+# Keep Directory Structure
+# ======================================
+
+!data/.gitkeep
+!features/.gitkeep
+!features/handcrafted/.gitkeep
+!features/transformer/.gitkeep
+!features/bovw/.gitkeep
+!features/combined/.gitkeep
+!features/selected/.gitkeep
+
+# Dataset PNG images
+data/**/*.png
+datasets/**/*.png
+dataset/**/*.png
+images/**/*.png
+photos/**/*.png
+
+# Additional image formats
+*.gif
+*.heic
+
+# Experiment caches and local outputs
+*.h5
+*.hdf5
+*.parquet
+
+# Local backups
+*_backup/

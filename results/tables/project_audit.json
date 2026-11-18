@@ -1,0 +1,428 @@
+{
+    "dataset": {
+        "train": {
+            "images": 2944,
+            "classes": 37,
+            "names_sha256": "7538fbbefeebd99c3ae94ac00e11af64ac0cf5cd139ade2cfe4453ffef9cb9f5",
+            "labels_sha256": "ff6d6003e6999b702119ba12738b13ed28c9d700ba65714145d7b8b9a30d6086"
+        },
+        "val": {
+            "images": 736,
+            "classes": 37,
+            "names_sha256": "dc1edefc47d8a6dd3debde0d477ad60db9e2a278caf81786c9e95f088549eff6",
+            "labels_sha256": "191f9b162136959cdca03ae6501b3cc5c3a7e2590519782545a17b28f0d6e6a7"
+        },
+        "test": {
+            "images": 3669,
+            "classes": 37,
+            "names_sha256": "4bbe0772839056d862ff41eeafe7427d5e3c0cb804393e43f6a73a634bea1d46",
+            "labels_sha256": "c6d49cec50423e6b0b699740c933ae50563da4c3cafe4daed53dec0c912627db"
+        }
+    },
+    "feature_matrices": {
+        "color": {
+            "train": {
+                "shape": [
+                    2944,
+                    88
+                ],
+                "dtype": "float32",
+                "size_mb": 0.9883
+            },
+            "val": {
+                "shape": [
+                    736,
+                    88
+                ],
+                "dtype": "float32",
+                "size_mb": 0.2471
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    88
+                ],
+                "dtype": "float32",
+                "size_mb": 1.2317
+            }
+        },
+        "lbp": {
+            "train": {
+                "shape": [
+                    2944,
+                    1003
+                ],
+                "dtype": "float32",
+                "size_mb": 11.2642
+            },
+            "val": {
+                "shape": [
+                    736,
+                    1003
+                ],
+                "dtype": "float32",
+                "size_mb": 2.816
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    1003
+                ],
+                "dtype": "float32",
+                "size_mb": 14.0381
+            }
+        },
+        "glcm": {
+            "train": {
+                "shape": [
+                    2944,
+                    40
+                ],
+                "dtype": "float32",
+                "size_mb": 0.4492
+            },
+            "val": {
+                "shape": [
+                    736,
+                    40
+                ],
+                "dtype": "float32",
+                "size_mb": 0.1123
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    40
+                ],
+                "dtype": "float32",
+                "size_mb": 0.5598
+            }
+        },
+        "hog": {
+            "train": {
+                "shape": [
+                    2944,
+                    8100
+                ],
+                "dtype": "float32",
+                "size_mb": 90.9668
+            },
+            "val": {
+                "shape": [
+                    736,
+                    8100
+                ],
+                "dtype": "float32",
+                "size_mb": 22.7417
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    8100
+                ],
+                "dtype": "float32",
+                "size_mb": 113.3686
+            }
+        },
+        "pooled_hog": {
+            "train": {
+                "shape": [
+                    2944,
+                    144
+                ],
+                "dtype": "float32",
+                "size_mb": 1.6172
+            },
+            "val": {
+                "shape": [
+                    736,
+                    144
+                ],
+                "dtype": "float32",
+                "size_mb": 0.4043
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    144
+                ],
+                "dtype": "float32",
+                "size_mb": 2.0154
+            }
+        },
+        "handcrafted": {
+            "train": {
+                "shape": [
+                    2944,
+                    9375
+                ],
+                "dtype": "float32",
+                "size_mb": 105.2856
+            },
+            "val": {
+                "shape": [
+                    736,
+                    9375
+                ],
+                "dtype": "float32",
+                "size_mb": 26.3214
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    9375
+                ],
+                "dtype": "float32",
+                "size_mb": 131.2137
+            }
+        },
+        "bovw_200": {
+            "train": {
+                "shape": [
+                    2944,
+                    200
+                ],
+                "dtype": "float32",
+                "size_mb": 2.2461
+            },
+            "val": {
+                "shape": [
+                    736,
+                    200
+                ],
+                "dtype": "float32",
+                "size_mb": 0.5615
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    200
+                ],
+                "dtype": "float32",
+                "size_mb": 2.7992
+            }
+        },
+        "transformer": {
+            "train": {
+                "shape": [
+                    2944,
+                    768
+                ],
+                "dtype": "float32",
+                "size_mb": 8.625
+            },
+            "val": {
+                "shape": [
+                    736,
+                    768
+                ],
+                "dtype": "float32",
+                "size_mb": 2.1562
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    768
+                ],
+                "dtype": "float32",
+                "size_mb": 10.749
+            }
+        },
+        "all": {
+            "train": {
+                "shape": [
+                    2944,
+                    10343
+                ],
+                "dtype": "float32",
+                "size_mb": 116.1567
+            },
+            "val": {
+                "shape": [
+                    736,
+                    10343
+                ],
+                "dtype": "float32",
+                "size_mb": 29.0392
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    10343
+                ],
+                "dtype": "float32",
+                "size_mb": 144.7619
+            }
+        },
+        "mrmr_20": {
+            "train": {
+                "shape": [
+                    2944,
+                    20
+                ],
+                "dtype": "float32",
+                "size_mb": 0.2246
+            },
+            "val": {
+                "shape": [
+                    736,
+                    20
+                ],
+                "dtype": "float32",
+                "size_mb": 0.0562
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    20
+                ],
+                "dtype": "float32",
+                "size_mb": 0.2799
+            }
+        },
+        "mrmr_50": {
+            "train": {
+                "shape": [
+                    2944,
+                    50
+                ],
+                "dtype": "float32",
+                "size_mb": 0.5615
+            },
+            "val": {
+                "shape": [
+                    736,
+                    50
+                ],
+                "dtype": "float32",
+                "size_mb": 0.1404
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    50
+                ],
+                "dtype": "float32",
+                "size_mb": 0.6998
+            }
+        },
+        "mrmr_100": {
+            "train": {
+                "shape": [
+                    2944,
+                    100
+                ],
+                "dtype": "float32",
+                "size_mb": 1.123
+            },
+            "val": {
+                "shape": [
+                    736,
+                    100
+                ],
+                "dtype": "float32",
+                "size_mb": 0.2808
+            },
+            "test": {
+                "shape": [
+                    3669,
+                    100
+                ],
+                "dtype": "float32",
+                "size_mb": 1.3996
+            }
+        }
+    },
+    "mrmr": {
+        "mrmr_20": {
+            "selected_features": 20,
+            "source": "transformer",
+            "maximum_absolute_difference": 0.0,
+            "indices_sha256": "eb1e2db5a41fe7de733403bfaa6fd3e1f33c1acce675f33e1a7aa889b09e6c91"
+        },
+        "mrmr_50": {
+            "selected_features": 50,
+            "source": "transformer",
+            "maximum_absolute_difference": 0.0,
+            "indices_sha256": "6ba7ff961d542394334f252e1c7fba7424acd9ae18b5bcd2f33881eb52f3a6a3"
+        },
+        "mrmr_100": {
+            "selected_features": 100,
+            "source": "transformer",
+            "maximum_absolute_difference": 0.0,
+            "indices_sha256": "7607933dc0947adab9ad58bf368d15ed4700369cb52fb172599c6dd75d5849dc"
+        }
+    },
+    "feature_dictionaries": [
+        {
+            "file": "features/bovw/bovw_100_feature_dictionary.json",
+            "entries": 100
+        },
+        {
+            "file": "features/bovw/bovw_200_feature_dictionary.json",
+            "entries": 200
+        },
+        {
+            "file": "features/bovw/bovw_500_feature_dictionary.json",
+            "entries": 500
+        },
+        {
+            "file": "features/combined/all_feature_dictionary.json",
+            "entries": 10343
+        },
+        {
+            "file": "features/handcrafted/color_feature_dictionary.json",
+            "entries": 88
+        },
+        {
+            "file": "features/handcrafted/glcm_feature_dictionary.json",
+            "entries": 40
+        },
+        {
+            "file": "features/handcrafted/hog_feature_dictionary.json",
+            "entries": 8100
+        },
+        {
+            "file": "features/handcrafted/lbp_feature_dictionary.json",
+            "entries": 1003
+        },
+        {
+            "file": "features/handcrafted/pooled_hog_feature_dictionary.json",
+            "entries": 144
+        },
+        {
+            "file": "features/selected/mrmr_100_dictionary.json",
+            "entries": 100
+        },
+        {
+            "file": "features/selected/mrmr_20_dictionary.json",
+            "entries": 20
+        },
+        {
+            "file": "features/selected/mrmr_50_dictionary.json",
+            "entries": 50
+        },
+        {
+            "file": "features/transformer/transformer_feature_dictionary.json",
+            "entries": 768
+        }
+    ],
+    "environment": {
+        "python": "3.10.12",
+        "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+        "numpy": "1.24.4",
+        "opencv-python": "Not found",
+        "scikit-learn": "1.7.2",
+        "scikit-image": "Not found",
+        "scipy": "1.8.0",
+        "pandas": "2.3.3",
+        "matplotlib": "3.10.9",
+        "torch": "2.9.1",
+        "torchvision": "0.24.1",
+        "Pillow": "12.0.0",
+        "mrmr-selection": "0.2.8",
+        "cuda_available": true,
+        "torch_cuda": "12.8",
+        "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+    }
+}

@@ -1,0 +1,852 @@
+[
+  {
+    "index": 9778,
+    "name": "vit_b16_embedding_403",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 403,
+    "feature_group": "transformer",
+    "selected_rank": 1,
+    "original_column_index": 9778
+  },
+  {
+    "index": 9900,
+    "name": "vit_b16_embedding_525",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 525,
+    "feature_group": "transformer",
+    "selected_rank": 2,
+    "original_column_index": 9900
+  },
+  {
+    "index": 9986,
+    "name": "vit_b16_embedding_611",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 611,
+    "feature_group": "transformer",
+    "selected_rank": 3,
+    "original_column_index": 9986
+  },
+  {
+    "index": 9644,
+    "name": "vit_b16_embedding_269",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 269,
+    "feature_group": "transformer",
+    "selected_rank": 4,
+    "original_column_index": 9644
+  },
+  {
+    "index": 9762,
+    "name": "vit_b16_embedding_387",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 387,
+    "feature_group": "transformer",
+    "selected_rank": 5,
+    "original_column_index": 9762
+  },
+  {
+    "index": 9388,
+    "name": "vit_b16_embedding_13",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 13,
+    "feature_group": "transformer",
+    "selected_rank": 6,
+    "original_column_index": 9388
+  },
+  {
+    "index": 9856,
+    "name": "vit_b16_embedding_481",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 481,
+    "feature_group": "transformer",
+    "selected_rank": 7,
+    "original_column_index": 9856
+  },
+  {
+    "index": 9895,
+    "name": "vit_b16_embedding_520",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 520,
+    "feature_group": "transformer",
+    "selected_rank": 8,
+    "original_column_index": 9895
+  },
+  {
+    "index": 9686,
+    "name": "vit_b16_embedding_311",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 311,
+    "feature_group": "transformer",
+    "selected_rank": 9,
+    "original_column_index": 9686
+  },
+  {
+    "index": 9971,
+    "name": "vit_b16_embedding_596",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 596,
+    "feature_group": "transformer",
+    "selected_rank": 10,
+    "original_column_index": 9971
+  },
+  {
+    "index": 9918,
+    "name": "vit_b16_embedding_543",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 543,
+    "feature_group": "transformer",
+    "selected_rank": 11,
+    "original_column_index": 9918
+  },
+  {
+    "index": 9922,
+    "name": "vit_b16_embedding_547",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 547,
+    "feature_group": "transformer",
+    "selected_rank": 12,
+    "original_column_index": 9922
+  },
+  {
+    "index": 9742,
+    "name": "vit_b16_embedding_367",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 367,
+    "feature_group": "transformer",
+    "selected_rank": 13,
+    "original_column_index": 9742
+  },
+  {
+    "index": 10018,
+    "name": "vit_b16_embedding_643",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 643,
+    "feature_group": "transformer",
+    "selected_rank": 14,
+    "original_column_index": 10018
+  },
+  {
+    "index": 9426,
+    "name": "vit_b16_embedding_51",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 51,
+    "feature_group": "transformer",
+    "selected_rank": 15,
+    "original_column_index": 9426
+  },
+  {
+    "index": 10058,
+    "name": "vit_b16_embedding_683",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 683,
+    "feature_group": "transformer",
+    "selected_rank": 16,
+    "original_column_index": 10058
+  },
+  {
+    "index": 9847,
+    "name": "vit_b16_embedding_472",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 472,
+    "feature_group": "transformer",
+    "selected_rank": 17,
+    "original_column_index": 9847
+  },
+  {
+    "index": 9957,
+    "name": "vit_b16_embedding_582",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 582,
+    "feature_group": "transformer",
+    "selected_rank": 18,
+    "original_column_index": 9957
+  },
+  {
+    "index": 9546,
+    "name": "vit_b16_embedding_171",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 171,
+    "feature_group": "transformer",
+    "selected_rank": 19,
+    "original_column_index": 9546
+  },
+  {
+    "index": 9771,
+    "name": "vit_b16_embedding_396",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 396,
+    "feature_group": "transformer",
+    "selected_rank": 20,
+    "original_column_index": 9771
+  },
+  {
+    "index": 10038,
+    "name": "vit_b16_embedding_663",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 663,
+    "feature_group": "transformer",
+    "selected_rank": 21,
+    "original_column_index": 10038
+  },
+  {
+    "index": 9552,
+    "name": "vit_b16_embedding_177",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 177,
+    "feature_group": "transformer",
+    "selected_rank": 22,
+    "original_column_index": 9552
+  },
+  {
+    "index": 9467,
+    "name": "vit_b16_embedding_92",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 92,
+    "feature_group": "transformer",
+    "selected_rank": 23,
+    "original_column_index": 9467
+  },
+  {
+    "index": 9930,
+    "name": "vit_b16_embedding_555",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 555,
+    "feature_group": "transformer",
+    "selected_rank": 24,
+    "original_column_index": 9930
+  },
+  {
+    "index": 9607,
+    "name": "vit_b16_embedding_232",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 232,
+    "feature_group": "transformer",
+    "selected_rank": 25,
+    "original_column_index": 9607
+  },
+  {
+    "index": 9666,
+    "name": "vit_b16_embedding_291",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 291,
+    "feature_group": "transformer",
+    "selected_rank": 26,
+    "original_column_index": 9666
+  },
+  {
+    "index": 10071,
+    "name": "vit_b16_embedding_696",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 696,
+    "feature_group": "transformer",
+    "selected_rank": 27,
+    "original_column_index": 10071
+  },
+  {
+    "index": 9707,
+    "name": "vit_b16_embedding_332",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 332,
+    "feature_group": "transformer",
+    "selected_rank": 28,
+    "original_column_index": 9707
+  },
+  {
+    "index": 10134,
+    "name": "vit_b16_embedding_759",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 759,
+    "feature_group": "transformer",
+    "selected_rank": 29,
+    "original_column_index": 10134
+  },
+  {
+    "index": 9941,
+    "name": "vit_b16_embedding_566",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 566,
+    "feature_group": "transformer",
+    "selected_rank": 30,
+    "original_column_index": 9941
+  },
+  {
+    "index": 9608,
+    "name": "vit_b16_embedding_233",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 233,
+    "feature_group": "transformer",
+    "selected_rank": 31,
+    "original_column_index": 9608
+  },
+  {
+    "index": 9576,
+    "name": "vit_b16_embedding_201",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 201,
+    "feature_group": "transformer",
+    "selected_rank": 32,
+    "original_column_index": 9576
+  },
+  {
+    "index": 9641,
+    "name": "vit_b16_embedding_266",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 266,
+    "feature_group": "transformer",
+    "selected_rank": 33,
+    "original_column_index": 9641
+  },
+  {
+    "index": 9956,
+    "name": "vit_b16_embedding_581",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 581,
+    "feature_group": "transformer",
+    "selected_rank": 34,
+    "original_column_index": 9956
+  },
+  {
+    "index": 10139,
+    "name": "vit_b16_embedding_764",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 764,
+    "feature_group": "transformer",
+    "selected_rank": 35,
+    "original_column_index": 10139
+  },
+  {
+    "index": 9381,
+    "name": "vit_b16_embedding_6",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 6,
+    "feature_group": "transformer",
+    "selected_rank": 36,
+    "original_column_index": 9381
+  },
+  {
+    "index": 9784,
+    "name": "vit_b16_embedding_409",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 409,
+    "feature_group": "transformer",
+    "selected_rank": 37,
+    "original_column_index": 9784
+  },
+  {
+    "index": 10015,
+    "name": "vit_b16_embedding_640",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 640,
+    "feature_group": "transformer",
+    "selected_rank": 38,
+    "original_column_index": 10015
+  },
+  {
+    "index": 9559,
+    "name": "vit_b16_embedding_184",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 184,
+    "feature_group": "transformer",
+    "selected_rank": 39,
+    "original_column_index": 9559
+  },
+  {
+    "index": 9474,
+    "name": "vit_b16_embedding_99",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 99,
+    "feature_group": "transformer",
+    "selected_rank": 40,
+    "original_column_index": 9474
+  },
+  {
+    "index": 10055,
+    "name": "vit_b16_embedding_680",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 680,
+    "feature_group": "transformer",
+    "selected_rank": 41,
+    "original_column_index": 10055
+  },
+  {
+    "index": 9688,
+    "name": "vit_b16_embedding_313",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 313,
+    "feature_group": "transformer",
+    "selected_rank": 42,
+    "original_column_index": 9688
+  },
+  {
+    "index": 9399,
+    "name": "vit_b16_embedding_24",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 24,
+    "feature_group": "transformer",
+    "selected_rank": 43,
+    "original_column_index": 9399
+  },
+  {
+    "index": 10088,
+    "name": "vit_b16_embedding_713",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 713,
+    "feature_group": "transformer",
+    "selected_rank": 44,
+    "original_column_index": 10088
+  },
+  {
+    "index": 9834,
+    "name": "vit_b16_embedding_459",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 459,
+    "feature_group": "transformer",
+    "selected_rank": 45,
+    "original_column_index": 9834
+  },
+  {
+    "index": 9578,
+    "name": "vit_b16_embedding_203",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 203,
+    "feature_group": "transformer",
+    "selected_rank": 46,
+    "original_column_index": 9578
+  },
+  {
+    "index": 9490,
+    "name": "vit_b16_embedding_115",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 115,
+    "feature_group": "transformer",
+    "selected_rank": 47,
+    "original_column_index": 9490
+  },
+  {
+    "index": 9789,
+    "name": "vit_b16_embedding_414",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 414,
+    "feature_group": "transformer",
+    "selected_rank": 48,
+    "original_column_index": 9789
+  },
+  {
+    "index": 9713,
+    "name": "vit_b16_embedding_338",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 338,
+    "feature_group": "transformer",
+    "selected_rank": 49,
+    "original_column_index": 9713
+  },
+  {
+    "index": 9858,
+    "name": "vit_b16_embedding_483",
+    "method": "pretrained_transformer",
+    "computation": "Dimension of final CLS token representation from frozen ViT-B/16 encoder",
+    "preprocessing": "Resize 224x224, RGB, ImageNet normalization",
+    "resolution": [
+      224,
+      224
+    ],
+    "backbone": "torchvision_vit_b_16",
+    "weights": "IMAGENET1K_V1",
+    "local_index": 483,
+    "feature_group": "transformer",
+    "selected_rank": 50,
+    "original_column_index": 9858
+  }
+]

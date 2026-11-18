@@ -1,0 +1,7 @@
+{
+    "combined_hog_and_pooled_ms_per_image": {
+        "train": 4.543828509170876,
+        "val": 4.50999288993676
+    },
+    "note": "Time includes gradient computation, cell histograms, HOG blocks and pooling. Image reading and resizing are excluded."
+}

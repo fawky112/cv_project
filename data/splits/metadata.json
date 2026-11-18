@@ -1,0 +1,10 @@
+{
+    "dataset": "Oxford-IIIT Pet",
+    "seed": 42,
+    "validation_ratio": 0.2,
+    "train_size": 2944,
+    "val_size": 736,
+    "test_size": 3669,
+    "num_classes": 37,
+    "data_root": "/home/kratos/Downloads/oxford-iiit-pet"
+}

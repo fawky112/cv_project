@@ -1,0 +1,44 @@
+{
+  "train_shape": [
+    2944,
+    10343
+  ],
+  "val_shape": [
+    736,
+    10343
+  ],
+  "total_features": 10343,
+  "feature_groups": [
+    {
+      "name": "color",
+      "dimension": 88
+    },
+    {
+      "name": "lbp",
+      "dimension": 1003
+    },
+    {
+      "name": "glcm",
+      "dimension": 40
+    },
+    {
+      "name": "hog",
+      "dimension": 8100
+    },
+    {
+      "name": "pooled_hog",
+      "dimension": 144
+    },
+    {
+      "name": "transformer",
+      "dimension": 768
+    },
+    {
+      "name": "bovw_200",
+      "dimension": 200
+    }
+  ],
+  "selected_bovw_vocabulary": 200,
+  "split_selection": "TRAIN and VAL only",
+  "test_used_for_selection": false
+}

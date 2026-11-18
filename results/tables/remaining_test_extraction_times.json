@@ -1,0 +1,11 @@
+{
+    "ms_per_image": {
+        "color": 3.8527342602721957,
+        "lbp": 4.370624281274409,
+        "glcm": 1.2376319757437766,
+        "hog": 4.673982667773198,
+        "pooled_hog": 4.673982667773198,
+        "bovw_200": 6.206530670748803
+    },
+    "timing_note": "Image loading and resizing excluded. HOG and pooled HOG times are shared, not independent. BoVW time includes SIFT and visual-word assignment."
+}

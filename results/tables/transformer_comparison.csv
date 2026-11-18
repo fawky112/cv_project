@@ -1,0 +1,2 @@
+feature_set,one_nn_val_accuracy,best_knn_val_accuracy,best_knn_macro_f1,best_k,best_distance
+transformer,0.8872282608695652,0.9103260869565217,0.9099358297099684,5,cosine
